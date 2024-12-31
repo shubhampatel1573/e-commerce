@@ -1,0 +1,29 @@
+.iteam{
+    width: 290px;
+    object-fit: contain;
+}
+.iteam img{
+    width: 100%;
+}
+.iteam p{
+    margin: 6px 0px;
+}
+.iteam-prices{
+    display: flex;
+    gap: 20px;
+}
+.iteam-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.iteam-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.iteam:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
