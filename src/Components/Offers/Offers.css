@@ -46,3 +46,31 @@
 .offers-right img{
     width: 280px;
 }
+@media (max-width:500px){
+    .offers{
+        padding: 10px;
+        height: 30vh;
+        width: 95vw;
+        gap: 15px;
+        margin-top: 100px;
+        padding-top: 50px;
+    }
+    
+    .offers-left h1{
+        font-size: 22px;
+    }
+    .offers-left{
+        padding: 5px 10px;
+        margin-top: 30px;
+    }
+    .offers-left p{
+        font-size: 18px;
+    }
+    .offers-left button{
+        width: 120px;
+        height: 40px;
+    }
+    .offers-right img{
+        width: 180px;
+    }
+}

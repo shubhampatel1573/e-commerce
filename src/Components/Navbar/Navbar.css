@@ -3,16 +3,31 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    width: 100vw;
+}
+.nav-hamburger{
+    display: none;
+}
+.hamburger{
+    display: none;
 }
 .nav-logo{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
+.nav-logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
 .nav-logo p{
     color: #171717;
     font-size: 38px;
     font-weight: 600;
+    
 }
 .nav-menu{
     display: flex;
@@ -40,10 +55,16 @@
 }
 .nav-login-cart{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 45px;
 }
-.nav-login-cart button{
+.nav-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login button{
     width: 157px;
     height: 58px;
     outline: none;
@@ -55,7 +76,7 @@
     background: white;
     cursor: pointer;
 }
-.nav-login-cart button:active{
+.nav-cart button:active{
     background: #f3f3f3;
 }
 .nav-cart-count{
@@ -70,4 +91,53 @@
     font-size: 14px;
     background-color: red;
     color: white;
+}
+@media (max-width: 900px ){
+    .nav-menu, .nav-login{
+        display: none;
+        position: absolute;
+    }
+
+    .nav-hamburger{
+        display: block;
+    }
+   .navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px  ;
+   }
+   .nav-logo img{
+    width: 40px;
+    margin-bottom: 15px;
+   }
+   .nav-logo p{
+    font-size: 20px;
+   }
+   .hamburger{
+    width: 98vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: none;
+   }
+   .hamburger a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    color: white;
+   }
+   .hamburger p{
+    color: white;
+   }
+   .cross{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+   }
 }

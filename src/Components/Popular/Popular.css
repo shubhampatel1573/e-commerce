@@ -17,7 +17,29 @@
     background: #252525;
 }
 .popular-iteam{
+    width: 80vw;
+    margin: auto;
     display: flex;
     margin-top: 50px;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:500px){
+    .popular{
+        width: 98vw;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .popular h1{
+        font-size: 20px;
+    }
+    .popular-iteam{
+       width: 98vw;
+       margin: auto;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+    }
 }

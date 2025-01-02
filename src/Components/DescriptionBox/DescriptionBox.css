@@ -26,3 +26,12 @@ display: flex;
     padding: 48px;
     padding-bottom: 70px;
 }
+@media(max-width:500px){
+    .descriptionbox{
+        width: 95vw;
+        margin: auto;
+    }
+    .descriptionbox-description{
+        padding: 15px;
+    }
+}

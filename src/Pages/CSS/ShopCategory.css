@@ -36,3 +36,34 @@
     font-size: 18px;
     font-weight: 500;
 }
+@media (max-width:500px) {       
+    .shopcategory-products{
+        display: flex;
+        width: 98vw;
+        margin:auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .shopcategory-indexSort{
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+    .shopcategory-sort{
+        width: 100px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 10px;
+    }
+    .shopcategory-loadmore{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+}

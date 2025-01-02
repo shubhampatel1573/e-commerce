@@ -94,3 +94,45 @@
     cursor: pointer;
     border: none;
 }
+@media (max-width:500px){
+    .cartiteams{
+        width: 98vw;
+        margin: auto;
+    }
+    .cartiteams-format-main{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .cartiteams-format p{
+        padding: 5px;
+        text-align: center;
+    }
+    .cartiteams-down{
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .cartiteams-total{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .cartiteams-total button{
+        margin: 30px;
+        margin-left: 40px;
+    }
+    .cartiteams-promocode{
+        width: 98vw;
+        margin-left: 10px;
+    }
+    .cartiteams-promobox{
+        width: 330px;
+    }
+    .cartiteams-promobox input{
+        width: 200px;
+    }
+}

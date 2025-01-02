@@ -13,7 +13,7 @@ const iteam = (props) => {
         <div className="iteam-price-old">
             ${props.old_price}
         </div>
-        <div>${props.id}</div>
+        {/* <div>${props.id}</div> */}
       </div>
     </div>
   )
